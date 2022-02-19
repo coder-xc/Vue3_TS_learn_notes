@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="../js/vue.js"></script>
+    <div id="app"></div>
+    <template id="template">
+        <h1>你好</h1>
+    </template>
+
+    <script>
+        Vue.createApp({
+            template: "#template",
+            methods: {
+                btnClick: () => {
+                    // 写成一个箭头函数时，这个 this 就是 window
+                    // 在箭头函数中是不绑定 this，但是函数中如果使用了 this
+                    console.log(this);
+                },
+                btn2Click: function () {
+                    // 写成一个箭头函数时，这个 this 就是 window
+                    // 在箭头函数中是不绑定 this，但是函数中如果使用了 this
+                    console.log(this);
+                }
+            }
+        }).mount("#app")
+
+    </script>
+</body>
+
+</html>
