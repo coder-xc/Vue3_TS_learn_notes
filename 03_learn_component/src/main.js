@@ -9,10 +9,12 @@ import { createApp } from 'vue'
 // import App from "./08_插槽的基本使用/App.vue"; 
 // import App from "./09_具名插槽的使用/App.vue"; 
 // import App from "./10_作用域插槽的使用/App.vue"; 
-import App from "./11_动态组件的使用/App.vue";
+// import App from "./11_动态组件的使用/App.vue";
 // import App from "./12_异步组件的使用/App.vue";
 // import App from "./13_引用元素和组件/App.vue";
 // import App from "./14_组件的生命周期/App.vue";
+import App from "./15_组件的v-model/App.vue";
+
 // import { sum } from "./12_异步组件的使用/utils/math";
 
 // console.log(sum(20, 30));
