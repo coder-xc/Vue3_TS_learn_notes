@@ -1,0 +1,16 @@
+{
+  "name": "04_composition_api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.16",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}
